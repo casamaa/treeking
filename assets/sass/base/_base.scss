@@ -1,0 +1,51 @@
+.precios{
+background-image: url(../img/bg-price.png);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+.bg-hero{
+display: flex;
+justify-content: center;
+}
+
+.container__estadisticas{
+text-align: center;
+
+}
+
+.container__progreso{
+border: 2px solid red;
+width: 80%;
+}
+
+.article{
+  display: grid;
+  grid-template-columns: 220fr 205fr;
+  column-gap: 29px;
+}
+
+
+.container__free{
+  text-decoration: none;
+  background-color: $white;
+  border: 2px solid red;
+  width: 100%;
+  height: 20em;
+  display: flex;
+  flex-direction:column;
+  grid-column-start: 2;
+  align-items: center;
+}
+.container__precio{
+  text-decoration: none;
+  background-color: $white;
+  border: 2px solid red;
+  width: 100%;
+  height: 20em;
+  display: flex;
+  flex-direction:column;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  align-items: center;
+}
